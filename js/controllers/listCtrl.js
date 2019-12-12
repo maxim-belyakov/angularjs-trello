@@ -11,4 +11,8 @@ angular.module('app').controller('listCtrl', function (listFactory, cardFactory)
         cardFactory.createCard(list, this.cardDescription)
         this.cardDescription = ''
     }
+
+    this.removeList = function (list) {
+        listFactory.removeList(list);
+    }
 })

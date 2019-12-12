@@ -20,5 +20,10 @@ angular.module('app').factory('listFactory', function () {
         return lists;
     }
 
+    service.removeList = function (list) {
+        _.pull(lists, list);
+        console.log('lists', lists);
+    }
+
     return service;
 })
