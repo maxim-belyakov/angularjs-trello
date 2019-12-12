@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-trello",
+  "version": "1.0.0",
+  "description": "This is a project of list-making application like Trello. For show angularjs features. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxim-belyakov/angularjs-trello.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Maxim Belyakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxim-belyakov/angularjs-trello/issues"
+  },
+  "homepage": "https://github.com/maxim-belyakov/angularjs-trello#readme"
+}
